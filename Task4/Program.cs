@@ -1,5 +1,5 @@
-﻿System.Console.WriteLine("Введите первое число "); //не делал проверку на "число или не число", решение есть в задаяе №2
-string s = Console.ReadLine();
+﻿System.Console.WriteLine("Введите первое число "); //не делал проверку на "число или не число",
+string s = Console.ReadLine();                     // решение есть в задаче №2
 int i = int.Parse(s);
 
 System.Console.WriteLine("Введите второе число "); 
