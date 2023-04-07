@@ -1,4 +1,4 @@
-﻿System.Console.WriteLine("Введите первое число "); 
+﻿System.Console.WriteLine("Введите первое число "); //не делал проверку на "число или не число", решение есть в задаяе №2
 string s = Console.ReadLine();
 int i = int.Parse(s);
 
