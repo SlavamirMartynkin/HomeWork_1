@@ -1,10 +1,37 @@
-﻿System.Console.WriteLine("Введите первое число ");
+﻿int i,j;
+
+System.Console.WriteLine("Введите первое число ");
 string s = Console.ReadLine();
-int i = int.Parse(s);
+
+if(int.TryParse(s, out i)) 
+{                                                 
+}
+else
+{
+    while (i==0)
+    {
+        Console.WriteLine("Введите ЧИСЛО!");
+        string s1 = Console.ReadLine();
+        int.TryParse(s1, out i);
+    }
+    
+}
 
 System.Console.WriteLine("Введите Второе число ");
 string t = Console.ReadLine();
-int j = int.Parse(t);
+
+if(int.TryParse(t, out j)) 
+{                                                 
+}
+else
+{
+    while (j==0)
+    {
+        Console.WriteLine("Введите ЧИСЛО!");
+        string t1 = Console.ReadLine();
+        int.TryParse(t1, out j);
+    }
+}
 
 if (i>j)
 {
