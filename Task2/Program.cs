@@ -1,4 +1,4 @@
-﻿System.Console.WriteLine("Введите первое число ");
+﻿System.Console.WriteLine("Введите первое число ");    //Посмотрите решение во второй ветке.ю я там исключил введение букв и зациклил пока не будет введено число
 string s = Console.ReadLine();
 int i = int.Parse(s);
 
